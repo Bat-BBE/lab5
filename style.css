@@ -35,6 +35,7 @@ header button {
     padding: 10px 20px;
 }
 .container {
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -200,31 +201,39 @@ a {
     padding: 8px;
     border: 2px solid #f61067;
 }
-@media only screen and (max-width: 600px) {
+
+.colum1 {
+    width: 60%;
+}
+.colum2 {
+    width: 30%;
+}
+@media screen and (max-width: 1024px) and (min-width: 600px) {
     .colum1, .colum2 {
         width: 100%;
     }
-    header {
-        text-align: center;
+
+    header h1 {
+        font-size: 40px;
     }
+}
+@media screen and (max-width: 599px) {
     .title {
         flex-direction: column;
-        align-items: center;
+        text-align: center;
     }
-}
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .colum1 {
-        width: 70%;
+    header h1 {
+        font-size: 30px;
     }
-    .colum2 {
+    .colum1, .colum2 {
         width: 100%;
+        padding: 10px;
     }
-}
-@media only screen and (min-width: 1025px) {
-    .colum1 {
-        width: 60%;
+    header button, .btn-block, .btn-block1, .btn-pink {
+        width: 100%;
+        padding: 10px;
     }
-    .colum2 {
-        width: 30%;
+    .video-container iframe {
+        height: 200px;
     }
 }
