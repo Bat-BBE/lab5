@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.title {
+    background-color: #1b1b6c;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.title p {
+    margin: 0;
+    font-family: Lato Regular;
+}
+header {
+    background-color: #13124f;
+    color: white;
+    padding: 30px;
+    text-align: left;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+header p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+header button {
+    background-color: #f61067;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h2 {
+    font-size: 40px;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+}
+.colum1 p {
+    font-family: Lato Regular;
+    font-weight: Lato bold;
+}
+section {
+    margin-top: 30px;
+}
+.video-container {
+    text-align: center;
+}
+footer {
+    width: 100%;
+    background-color: #13124f;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.important-alert {
+    background-color: #9090a5;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.alert-f {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.alert {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alert-icon {
+    font-size: 20px;
+    color: #000000;
+}
+.alert-f p {
+    color: white;
+}
+.panel-heading {
+    padding: 7px 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.panel-default .panel-heading {
+    background-color: #f61067;
+    color: white;
+}
+.glyphicon {
+    margin-right: 5px;
+}
+.badge {
+    background-color: #352ba5;
+    color: white;
+    font-weight: bold; 
+    border-radius: 50%;
+    padding: 3px 7px;
+    text-align: center;
+}
+.panel-default2 {
+    background-color: #9090a5;
+    margin-top: 10px;
+}
+.panel-heading2 {
+    background-color: #9090a5;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.panel-default2 .panel-heading2 {
+    margin: 0;
+    align-items: center;
+}
+.panel-body {
+    padding: 15px;
+    background-color: #13124f;
+    color: white;
+}
+.form-control {
+    background-color: #1b1b6c;
+    width: calc(100% - 20px);
+    color: #f5f2f2;
+    border-top: 2px solid #f5f2f2;
+    border-bottom: 2px solid #f5f2f2;
+    padding-bottom: 10px;
+    padding: 5px;
+}
+
+.btn-pink {
+    width: 100%;
+    background-color: #f61067;
+    color: white;
+    padding: 7px;
+    border: none;
+}
+.btn-pink:hover {
+    opacity: 0.9;
+}
+.link {
+    background-color:#352BA5;
+    padding: 10px;
+    text-align: center;
+}
+a { 
+    color: #d8d8f8;
+    font-size: 12px;
+    font-weight: bold;
+}
+.panel-default3 {
+    background-color: white;
+    margin-top: 20px;
+    border: 2px solid #9090a5;
+}
+.panel-body2 {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+}
+.vote-progress {
+    height: 10px;
+    background-color: #eeeeee;
+    margin: 10px 0;
+}
+
+.vote-progress > div {
+    height: 100%;
+}
+.btn-block1 {
+    width: 49%;
+    background-color: white;
+    color: #2ad392;
+    border: 2px solid #2ad392;
+    padding: 8px;
+}
+
+.btn-block {
+    width: 49%;
+    background-color: #f61067;
+    color: white;
+    padding: 8px;
+    border: 2px solid #f61067;
+}
+@media only screen and (max-width: 600px) {
+    .colum1, .colum2 {
+        width: 100%;
+    }
+    header {
+        text-align: center;
+    }
+    .title {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .colum1 {
+        width: 70%;
+    }
+    .colum2 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .colum1 {
+        width: 60%;
+    }
+    .colum2 {
+        width: 30%;
+    }
+}
