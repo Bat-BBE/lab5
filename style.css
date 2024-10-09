@@ -48,10 +48,6 @@ h2 {
     border-bottom: 2px solid #eeeeee;
     padding-bottom: 10px;
 }
-.colum1 p {
-    font-family: Lato Regular;
-    font-weight: Lato bold;
-}
 section {
     margin-top: 20px;
     margin-right: 20px;
@@ -208,11 +204,11 @@ a {
 
 .colum1 {
     flex: 1 1 60%;
-    width: 60%;
+    padding: 10px;
 }
 .colum2 {
     flex: 1 1 30%;
-    width: 30%;
+    padding: 10px;
 }
 @media screen and (max-width: 1024px) and (min-width: 600px) {
     .colum1, .colum2 {
