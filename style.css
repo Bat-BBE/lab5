@@ -10,10 +10,7 @@ body {
     display: flex;
     align-items: center;
 }
-.title p {
-    margin: 0;
-    font-family: Lato Regular;
-}
+
 header {
     background-color: #13124f;
     color: white;
@@ -153,9 +150,6 @@ footer {
     color: white;
     padding: 7px;
     border: none;
-}
-.btn-pink:hover {
-    opacity: 0.9;
 }
 .link {
     background-color:#352BA5;
